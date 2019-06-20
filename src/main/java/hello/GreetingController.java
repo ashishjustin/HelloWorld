@@ -13,7 +13,7 @@ import java.sql.Timestamp;
 public class GreetingController {
     private final AtomicLong counter = new AtomicLong();
 
-    @RequestMapping("/greeting")
+    @RequestMapping("/greeting123")
     public Greeting greeting12() throws UnknownHostException{
         InetAddress localhost = InetAddress.getLocalHost();
         Date date = new Date();
