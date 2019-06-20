@@ -14,7 +14,7 @@ public class GreetingController {
     private final AtomicLong counter = new AtomicLong();
 
     @RequestMapping("/greeting")
-    public Greeting greeting1() throws UnknownHostException{
+    public Greeting greeting12() throws UnknownHostException{
         InetAddress localhost = InetAddress.getLocalHost();
         Date date = new Date();
         System.out.println(new Timestamp(date.getTime()));
